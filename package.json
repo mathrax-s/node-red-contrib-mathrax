@@ -1,0 +1,26 @@
+{
+  "name": "node-red-contrib-mathrax",
+  "version": "1.0.0",
+  "description": "microbit+ble test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathrax-s/node-red-contrib-mathrax.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathrax-s/node-red-contrib-mathrax/issues"
+  },
+  "homepage": "https://github.com/mathrax-s/node-red-contrib-mathrax#readme"
+  ,
+  "node-red" : {
+    "nodes": {
+        "lower-case": "mathrax.js"
+    }
+  }
+
+}
